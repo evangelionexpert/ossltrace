@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     char* child_file = argv[1];
     char** child_argv = argv+1;
 
-    setenv("LD_PRELOAD", libpath, 1);
+    setenv("LD_AUDIT", libpath, 1);
 
     if (execvp(child_file, child_argv) == -1) {
         perror(child_file);
