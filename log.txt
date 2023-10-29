@@ -1,0 +1,101 @@
+la_version(): version = 2; LAV_CURRENT = 2
+la_objopen(): loading ""; lmid = LM_ID_BASE; cookie=0x7f415ab05770
+la_objopen(): loading "/lib64/ld-linux-x86-64.so.2"; lmid = LM_ID_BASE; cookie=0x7f415ab04f50
+la_activity(): cookie = 0x7f415ab05770; flag = LA_ACT_ADD
+la_objopen(): loading "linux-vdso.so.1"; lmid = LM_ID_BASE; cookie=0x7f415ab05d40
+la_objsearch(): name = libcurl.so.4; cookie = 0x7f415ab05770; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libcurl.so.4; cookie = 0x7f415ab05770; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libcurl.so.4"; lmid = LM_ID_BASE; cookie=0x7f415a69b470
+la_objsearch(): name = libc.so.6; cookie = 0x7f415ab05770; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libc.so.6; cookie = 0x7f415ab05770; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libc.so.6"; lmid = LM_ID_BASE; cookie=0x7f415a69b990
+la_objsearch(): name = libnghttp2.so.14; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libnghttp2.so.14; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libnghttp2.so.14"; lmid = LM_ID_BASE; cookie=0x7f415a69beb0
+la_objsearch(): name = libidn2.so.0; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libidn2.so.0; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libidn2.so.0"; lmid = LM_ID_BASE; cookie=0x7f415a2d34a0
+la_objsearch(): name = libssh2.so.1; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libssh2.so.1; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libssh2.so.1"; lmid = LM_ID_BASE; cookie=0x7f415a2d39c0
+la_objsearch(): name = libpsl.so.5; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libpsl.so.5; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libpsl.so.5"; lmid = LM_ID_BASE; cookie=0x7f415a2d3ee0
+la_objsearch(): name = libssl.so.3; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libssl.so.3; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libssl.so.3"; lmid = LM_ID_BASE; cookie=0x7f415a2d4400
+la_objsearch(): name = libcrypto.so.3; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libcrypto.so.3; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libcrypto.so.3"; lmid = LM_ID_BASE; cookie=0x7f415a2d4920
+la_objsearch(): name = libgssapi_krb5.so.2; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libgssapi_krb5.so.2; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libgssapi_krb5.so.2"; lmid = LM_ID_BASE; cookie=0x7f415a2d4e40
+la_objsearch(): name = libzstd.so.1; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libzstd.so.1; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libzstd.so.1"; lmid = LM_ID_BASE; cookie=0x7f415a15e4a0
+la_objsearch(): name = libbrotlidec.so.1; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libbrotlidec.so.1; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libbrotlidec.so.1"; lmid = LM_ID_BASE; cookie=0x7f415a15e9c0
+la_objsearch(): name = libz.so.1; cookie = 0x7f415a69b470; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libz.so.1; cookie = 0x7f415a69b470; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libz.so.1"; lmid = LM_ID_BASE; cookie=0x7f415a15eef0
+la_objsearch(): name = libunistring.so.5; cookie = 0x7f415a2d34a0; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libunistring.so.5; cookie = 0x7f415a2d34a0; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libunistring.so.5"; lmid = LM_ID_BASE; cookie=0x7f415a15f540
+la_objsearch(): name = libkrb5.so.3; cookie = 0x7f415a2d4e40; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libkrb5.so.3; cookie = 0x7f415a2d4e40; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libkrb5.so.3"; lmid = LM_ID_BASE; cookie=0x7f415a15fbd0
+la_objsearch(): name = libk5crypto.so.3; cookie = 0x7f415a2d4e40; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libk5crypto.so.3; cookie = 0x7f415a2d4e40; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libk5crypto.so.3"; lmid = LM_ID_BASE; cookie=0x7f415a1334a0
+la_objsearch(): name = libcom_err.so.2; cookie = 0x7f415a2d4e40; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libcom_err.so.2; cookie = 0x7f415a2d4e40; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libcom_err.so.2"; lmid = LM_ID_BASE; cookie=0x7f415a1339d0
+la_objsearch(): name = libkrb5support.so.0; cookie = 0x7f415a2d4e40; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libkrb5support.so.0; cookie = 0x7f415a2d4e40; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libkrb5support.so.0"; lmid = LM_ID_BASE; cookie=0x7f415a133ef0
+la_objsearch(): name = libkeyutils.so.1; cookie = 0x7f415a2d4e40; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libkeyutils.so.1; cookie = 0x7f415a2d4e40; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libkeyutils.so.1"; lmid = LM_ID_BASE; cookie=0x7f415a134420
+la_objsearch(): name = libresolv.so.2; cookie = 0x7f415a2d4e40; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libresolv.so.2; cookie = 0x7f415a2d4e40; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libresolv.so.2"; lmid = LM_ID_BASE; cookie=0x7f415a134950
+la_objsearch(): name = libbrotlicommon.so.1; cookie = 0x7f415a15e9c0; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libbrotlicommon.so.1; cookie = 0x7f415a15e9c0; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libbrotlicommon.so.1"; lmid = LM_ID_BASE; cookie=0x7f415a134f30
+la_symbind64(): symname = calloc; sym->st_value = 0x7f415a39dc30
+        ndx = 2982; flags = 0x8; refcook = 0x7f415ab05770; defcook = 0x7f415a69b990
+la_symbind64(): symname = free; sym->st_value = 0x7f415a39d2e0
+        ndx = 1502; flags = 0x8; refcook = 0x7f415ab05770; defcook = 0x7f415a69b990
+la_symbind64(): symname = malloc; sym->st_value = 0x7f415a39cc10
+        ndx = 383; flags = 0x8; refcook = 0x7f415ab05770; defcook = 0x7f415a69b990
+la_symbind64(): symname = realloc; sym->st_value = 0x7f415a39d520
+        ndx = 1978; flags = 0x8; refcook = 0x7f415ab05770; defcook = 0x7f415a69b990
+la_activity(): cookie = 0x7f415ab05770; flag = LA_ACT_CONSISTENT
+la_preinit(): 0x7f415ab05770
+la_objsearch(): name = libnss_mymachines.so.2; cookie = 0x7f415a69b990; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libnss_mymachines.so.2; cookie = 0x7f415a69b990; flag = LA_SER_CONFIG
+la_activity(): cookie = 0x7f415ab05770; flag = LA_ACT_ADD
+la_objopen(): loading "/usr/lib/libnss_mymachines.so.2"; lmid = LM_ID_BASE; cookie=0x7f4154001360
+la_objsearch(): name = libcap.so.2; cookie = 0x7f4154001360; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libcap.so.2; cookie = 0x7f4154001360; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libcap.so.2"; lmid = LM_ID_BASE; cookie=0x7f4154001880
+la_objsearch(): name = libgcc_s.so.1; cookie = 0x7f4154001360; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libgcc_s.so.1; cookie = 0x7f4154001360; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libgcc_s.so.1"; lmid = LM_ID_BASE; cookie=0x7f4154001db0
+la_activity(): cookie = 0x7f415ab05770; flag = LA_ACT_CONSISTENT
+la_objsearch(): name = libnss_resolve.so.2; cookie = 0x7f415a69b990; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libnss_resolve.so.2; cookie = 0x7f415a69b990; flag = LA_SER_CONFIG
+la_activity(): cookie = 0x7f415ab05770; flag = LA_ACT_ADD
+la_objopen(): loading "/usr/lib/libnss_resolve.so.2"; lmid = LM_ID_BASE; cookie=0x7f4154002a00
+la_objsearch(): name = libm.so.6; cookie = 0x7f4154002a00; flag = LA_SER_ORIG
+la_objsearch(): name = /usr/lib/libm.so.6; cookie = 0x7f4154002a00; flag = LA_SER_CONFIG
+la_objopen(): loading "/usr/lib/libm.so.6"; lmid = LM_ID_BASE; cookie=0x7f4154002f20
+la_activity(): cookie = 0x7f415ab05770; flag = LA_ACT_CONSISTENT
+la_activity(): cookie = 0x7f415ab05770; flag = LA_ACT_DELETE
+la_objclose(): 0x7f4154002a00
+la_objclose(): 0x7f4154002f20
+la_objclose(): 0x7f4154001360
+la_objclose(): 0x7f4154001880
+la_objclose(): 0x7f4154001db0
+la_objc

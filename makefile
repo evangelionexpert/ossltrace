@@ -19,3 +19,5 @@ app: pre
 	$(CC) -o $(INPROC_OUTPUT_DIR)/$(INPROC_EXECUTABLE_NAME) src/main.c
 lib: pre
 	$(CC) -shared -fPIC -fvisibility=hidden -lssl -o $(INPROC_OUTPUT_DIR)/$(INPROC_LIB_NAME) src/lib.c 
+test:
+	$(CC) -O3 -lssl3 -Wl,-z,relro,-z,now -fno-plt -o $(INPROC_OUTPUT_DIR)/test test/test.c

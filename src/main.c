@@ -4,11 +4,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void print_usage(char *pathname) {
+void 
+print_usage(char *pathname) {
     fprintf(stderr, "usage: %s <command> [command args]\n", pathname);
 }
 
-int main(int argc, char** argv) {
+int 
+main(int argc, char** argv) {
     if (argc < 2) {
         fprintf(stderr, "sorry, not enough args\n");
         print_usage(argv[0]);
