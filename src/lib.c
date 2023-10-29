@@ -31,7 +31,7 @@ la_objsearch(const char *name, uintptr_t *cookie, unsigned int flag)
             (flag == LA_SER_CONFIG) ?  "LA_SER_CONFIG" :
             (flag == LA_SER_SECURE) ?  "LA_SER_SECURE" :
             "???");
-~
+
     return name;
 }
 

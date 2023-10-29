@@ -20,4 +20,4 @@ app: pre
 lib: pre
 	$(CC) -shared -fPIC -fvisibility=hidden -lssl -o $(INPROC_OUTPUT_DIR)/$(INPROC_LIB_NAME) src/lib.c 
 test:
-	$(CC) -O3 -lssl3 -Wl,-z,relro,-z,now -fno-plt -o $(INPROC_OUTPUT_DIR)/test test/test.c
+	$(CC) -O3 -lssl -Wl,-z,relro,-z,now -o $(INPROC_OUTPUT_DIR)/test test/test.c
