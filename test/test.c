@@ -1,7 +1,6 @@
 #define _GNU_SOURCE
 
 #include <stdlib.h>
-#include <openssl/ssl.h>
 #include <dlfcn.h>
 
 // typedef int (*SSL_write_callback)(SSL *ssl, const void *buf, int num);
@@ -30,9 +29,12 @@ main() {
     void * meme = malloc(105);
     free(meme);
 
-    SSL_library_init();
+    // SSL_library_init();
     // SSL_write(NULL, NULL, 0);
 
-    SSL_write(NULL, NULL, 0);
+    void * a = dlopen("libssl.so", RTLD_LAZY);
+    void * sym = dlsym(a, "SSL_write");
+
+    // SSL_write(NULL, NULL, 0);
     // DLSYMMED_SSL_write(NULL, NULL, 0);
 }

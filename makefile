@@ -20,5 +20,5 @@ app: pre
 lib: pre
 	$(CC) -shared -fPIC -fvisibility=hidden -o $(INPROC_OUTPUT_DIR)/$(INPROC_LIB_NAME) src/lib.c -lssl
 test:
-	$(CC) -o $(INPROC_OUTPUT_DIR)/test test/test.c -lssl -Wl,-z,lazy
+	$(CC) -o $(INPROC_OUTPUT_DIR)/test test/test.c
 
