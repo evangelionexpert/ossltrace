@@ -3,16 +3,12 @@
 import argparse
 import socket
 import struct
-# import time
-
-SOCKET_PATH = "/tmp/parasite.sock" # todo
 
 class EpollClient:
     def __init__(self, socket_path):
         self.socket_path = socket_path
         self.client_socket = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
         self.client_socket.connect(self.socket_path)
-        # self.client_socket.settimeout(200)
 
     def send_command(self, command, data=""):
         command = struct.pack('!H', command)  # Unsigned short in network byte order
@@ -21,15 +17,12 @@ class EpollClient:
 
     def add_string(self, string):
         self.send_command(0, string)
-        # time.sleep(0.3)
 
     def remove_string(self, string):
         self.send_command(1, string)
-        # time.sleep(0.3)
 
     def get_strings(self):
         self.send_command(2)
-        # time.sleep(0.3)
         response = self.client_socket.recv(4096).decode()
         return response
 
@@ -53,7 +46,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     client = EpollClient(args.socket_path)
-    # client = EpollClient(SOCKET_PATH)
 
     if args.command == 'add_string':
         client.add_string(args.string)
@@ -69,4 +61,3 @@ if __name__ == '__main__':
         print(f'Removed string: {args.string}')
 
     client.close()
-
